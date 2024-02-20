@@ -1,0 +1,30 @@
+# You can use a GUI library to create an application for managing finances, setting budgets, etc.
+
+import tkinter as tk
+
+def record_income():
+    # Implement recording of income
+    pass
+
+def record_expense():
+    # Implement recording of expenses
+    pass
+
+def set_budget():
+    # Implement setting budget goals
+    pass
+
+# Create GUI
+root = tk.Tk()
+root.title("Home Budget Planner")
+
+income_button = tk.Button(root, text="Record Income", command=record_income)
+income_button.pack()
+
+expense_button = tk.Button(root, text="Record Expense", command=record_expense)
+expense_button.pack()
+
+budget_button = tk.Button(root, text="Set Budget", command=set_budget)
+budget_button.pack()
+
+root.mainloop()
